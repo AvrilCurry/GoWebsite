@@ -1,0 +1,117 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-image: url("/static/images/background.jpg");
+}
+
+#header {
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+}
+
+h1 {
+    color: rgb(182, 174, 174);
+    text-shadow: rgb(88, 139, 206) 3px 2px 3px;
+}
+
+#container {
+    border: 1px solid rgb(124, 115, 115);
+    box-shadow: 4px 3px 2px #aaaaaa;
+    margin-top: 150px;
+    margin-left: 700px; 
+    width: 300px;
+    height: auto;
+    position: absolute;
+}
+
+form div {
+    /*border: 1px solid green;*/
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 250px;
+    height: 50px;
+}
+
+form div:nth-child(5) {
+    display: inline-block;
+}
+
+label {
+    margin-right: 25px;
+}
+
+label img {
+    margin-top: 8px;
+    width: 24px;
+    height: 24px;
+
+}
+
+input {
+    border: 1px solid grey;
+    margin-top: 7px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 180px;
+    height: 24px;
+    position: absolute;
+}
+
+.error {
+    /*border: 1px solid black;*/
+    margin-left: 49px;
+    margin-top: 4px;
+    width: 220px;
+    height: 10px;
+    font-size: 12px;
+    line-height: 10px;
+    color: rgb(110, 240, 23);
+    position: absolute;
+}
+
+form div:nth-child(1) {
+    margin-top: 10px;
+}
+
+div:nth-child(3) .error {
+    /*border: 1px solid blue;*/
+    height: 24px;
+    line-height: 12px;
+}
+
+form div:nth-child(4) {
+    margin-top: 15px;
+}
+
+div:nth-child(4) input {
+    border: none;
+    margin-top: 8px;
+}
+
+div:nth-child(5) input {
+    border: 1px solid whitesmoke;
+    border-radius: 14px;
+    margin-bottom: 0px;
+    margin-left: 35px;
+    margin-right: 10px;
+    padding: 0px;
+    width: 60px;
+    background-color: grey;
+    color: whitesmoke;
+    position: relative;
+}   
+
+footer{
+    width: 100%;
+    height: 30px;
+    margin-top: 558px;
+    position:absolute;
+    text-align: center;
+}

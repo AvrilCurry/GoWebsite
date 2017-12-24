@@ -1,2 +1,2 @@
-# GoWebsite
-A simple website using Go as back-end language
+# Gowebsite
+Access a static website 
